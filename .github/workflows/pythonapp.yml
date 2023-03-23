@@ -2,6 +2,10 @@ name: Python application
 
 on:
   pull_request:
+    types:
+    - closed
+    branches:
+    - master
     paths:
     - 'python/*'
       
